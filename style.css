@@ -1,0 +1,357 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins:wght@400;400&family=Roboto:wght@400;400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Rouge+Script&display=swap');
+/*  Resets */
+
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
+   /* font-family: 'Roboto', sans-serif; */
+ 
+  
+}
+
+
+/*      Utility class */
+
+.container{
+    max-width: 1050px;
+    margin: auto;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*    stylling */
+.nav-bar{
+    justify-content: space-between;
+   
+}
+.nav-bar img{
+    padding: 10px;
+    width: 100px;
+    /* z-index: 2; */
+   
+}
+
+.right-nav ul{
+    list-style: none;
+    padding: 20px;
+    gap: 60px;
+}
+
+.right-nav a{
+    color: black;
+}
+.right-nav a:hover{
+    color: #fac082;
+  
+}
+
+/*   Home section */
+
+.home-section{
+        background-image: url(./marry/arp2.jpg);
+        width: 100%;
+        height: 550px;
+        background-size: cover;
+        background-position: center 0px;
+        justify-content: center;
+        opacity: .95;
+        -webkit-filter: grayscale(25%); /* Safari 6.0 - 9.0 */
+        filter: grayscale(25%);
+}
+
+.content{
+   width: 100%;
+   height: 250px;
+   margin-block: 150px;
+   padding: 30px;
+   line-height: 50px;
+   text-align: center;
+  
+   
+}
+
+.content{
+    font-family: "Rouge Script", cursive;
+    color: white;
+    /* font-weight: 300; */
+    font-size: 30px;
+}
+/* h1{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+
+} */
+
+/* marrige section */
+.marrige-section{
+    margin-block: 100px;
+}
+.marrige{
+    padding: 40px;
+    /* gap: 50px; */
+    justify-content: space-evenly;
+
+}
+.disc{
+    padding: 30px;
+    /* gap: 50px; */
+    justify-content:center;
+
+}
+.marrige img{
+    width: 200px;
+    border: 2 px solid #fac082;
+    border-radius: 50%;
+}
+
+.man{
+  
+    text-align: center;
+  padding: 30px;
+  line-height: 27px;
+}
+.women{
+    
+    line-height: 27px;
+    text-align: center;
+    padding: 30px;
+}
+
+.icon a{
+  
+    padding: 8px;
+    background-color:#fac082;
+    border-radius: 8px;
+   
+}
+.icon a:hover{
+  
+  color: black;
+}
+.icon{
+  margin-top:15px;
+   
+}
+
+/* engagement */
+.our-engagement img{
+   width: 80%;
+   margin: 50px auto;
+}
+.our-engagement {
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* -people section */
+
+.common h2{
+        padding: 20px;
+        /* background-color: #735535; */
+        background: linear-gradient(#fac082 ,#735535);
+        color: white;
+    font-family: "Rouge Script", cursive;
+    /* font-size: 35px; */
+    font-size: 2.187rem;
+
+    margin-bottom: 15px;
+    border-radius: 44px;
+ 
+
+}
+
+.im1{
+    float: right;
+}
+.im2{
+    float: left;
+   
+}
+
+.box{
+    margin-top: 20px;
+    padding: 10px;
+  
+}
+.box img{
+  width: 130px;
+  border: 2px solid #fac082;
+  
+}
+
+.people1 p{
+    text-align: start;
+  
+ 
+}
+.people2 p{
+    text-align: end;
+  
+ 
+}
+
+
+/* Slogan -section */
+
+.slogan{
+    background-image:url(./marry/queto.jpg);
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+}
+
+.slogan h2{
+  
+    color: rgb(16, 11, 11);
+font-family: "Rouge Script", cursive;
+/* font-size: 45px; */
+font-size: 3.125rem;
+margin-block: 70px;
+text-align:center;
+}
+
+   /* event section  */
+
+.event{
+    margin-block: 75px;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.event img{
+    width:100%;
+    padding-top: 15px;
+    height: 300px;
+    
+ }
+
+ /* last  */
+
+ .last{
+    -webkit-filter: grayscale(55%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(55%);
+   
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.last h2{
+  
+    color: #000000;
+font-family: "Rouge Script", cursive;
+/* font-size: 45px; */
+font-size: 3.125rem;
+
+text-align:center;
+}
+
+/*     MOdification */
+.disc h2{
+    color: #fac082;
+font-family: "Rouge Script", cursive;
+/* font-size: 50px; */
+font-size: 3.125rem;
+
+}
+
+.man h3{
+    color: #fac082;
+font-family: "Rouge Script", cursive;
+font-size: 30px;
+
+}
+.man p{
+    /* color: #fac082; */
+font-family: "Rouge Script", cursive;
+font-size: 22px;
+font-weight: 300;
+
+}
+.women h3{
+    color: #fac082;
+    font-family: "Rouge Script", cursive;
+    font-size: 30px;
+
+}
+
+.women p{
+    /* color: #fac082; */
+font-family: "Rouge Script", cursive;
+font-size: 22px;
+font-weight: 300;
+
+}
+
+.our-engagement h2{
+    color: #fac082;
+font-family: "Rouge Script", cursive;
+/* font-size: 50px; */
+font-size: 3.125rem;
+
+}
+
+.box h5{
+font-family: "Rouge Script", cursive;
+font-size: 20px;
+}
+.event h2{
+    color: #fac082;
+    font-family: "Rouge Script", cursive;
+    /* font-size: 50px; */
+    font-size: 3.125rem;
+}
+.event img{
+    background-size: cover;
+    background-position: center;
+}
+.late h2{
+    background-color: #fac082;
+    border-radius: 42px;
+    color: white;
+
+}
+
+.venue{
+    margin-top: 50px;
+}
+
+.arpit h2{
+color: #fac082;
+
+}
+
+.ar h2 {
+    font-size: 30px;
+}
+
+.location{
+    padding: 10px;
+    color: black;
+    font-family: "Rouge Script", cursive;
+
+}
+.location h2{
+    background-color: #fac082;
+    color: white;
+    border-radius: 20px;
+    /* width: 100px; */
+  /* align-items: center; */
+
+}
